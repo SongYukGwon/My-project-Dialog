@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a6415f3f0fd0439d2c45e0eb588f2, type: 3}
+  m_Name: DarkSlime
+  m_EditorClassIdentifier: 
+  Talk:
+  - branch: 0
+    content: "\u2026."
+  - branch: 0
+    content: ?????
+  - branch: 1
+    content: ....1
+  - branch: 2
+    content: "\u2026.2"
+  - branch: 0
+    content: XXXXXXXXXXXXXXX
+  Select:
+  - eventIndex: 1
+    content: "\u2026...?"
+    branch: 1
+    index: 2
+  - eventIndex: 1
+    content: '!?!?!?!?!'
+    branch: 2
+    index: 3

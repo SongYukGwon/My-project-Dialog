@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 833606aedce8151438475c98230f3a81, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: 
+  Talk:
+  - branch: 0
+    content: "\uC548\uB155. \uC5EC\uAE30 \uCC98\uC74C\uC774\uAD6C\uB098"
+  - branch: 0
+    content: "\uB108\uB294 \uB204\uAD6C\uB2C8?"
+  - branch: 1
+    content: "\uC751 \uBC18\uAC00\uC6CC!"
+  - branch: 1
+    content: "\uADF8\uB807\uAC8C \uC0DD\uAE30\uB294\uC9C0\uB294 \uC54A\uC558\uB294\uB370"
+  - branch: 1
+    content: "\uC5B4\uCA0C\uB4E0 \uB9CC\uB098\uC11C \uBC18\uAC00\uC6CC!"
+  - branch: 2
+    content: "\uC544\u2026.. \uC548\uB155!"
+  - branch: 2
+    content: "\uC5EC\uAE30\uB294 \uBB50\uD558\uB7EC \uC628\uAC70\uC57C?"
+  - branch: 2
+    content: "\uADF8\uB807\uAD6C\uB098\u2026."
+  - branch: 2
+    content: "\uC5EC\uAE30 \uC788\uC73C\uBA74 \uC704\uD5D8\uD558\uB2C8 \uC5B4\uC11C
+      \uB3CC\uC544\uAC00"
+  - branch: 0
+    content: "\uADF8\uB7FC \uC774\uB9CC"
+  Select:
+  - eventIndex: 1
+    content: "\uB098\uB3C4 \uC2AC\uB77C\uC784\uC774\uC57C."
+    branch: 1
+    index: 2
+  - eventIndex: 1
+    content: "\uB098\uB294 \uC0AC\uB78C\uC774\uC57C"
+    branch: 2
+    index: 5
